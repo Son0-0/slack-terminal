@@ -8,12 +8,14 @@
   - AWS EC2 Ubuntu 20.04 LTS 환경에서 동작 확인
 - /server tail out.log 명령어 입력시 log 반환
 
-## Installation
-```$ go get https://github.com/Son0-0/slack-terminal```
+## Installation (Slack App 생성 후 Slash Command 설정 필수)
+1. ```$ git clone https://github.com/Son0-0/slack-terminal.git```
+2. ```$ go build main.go```
+3. ```$ ./main```
 
 ## Settings
 1. PORT_NUM 설정 (기본 설정 9999)
-2. Slack App Slash Command 설정
+2. [Slack App Slash Command 설정](https://velog.io/@supssson/Go-Slack을-터미널로-사용하기)
   - https://api.slack.com 에서 App 생성
   - Slash Command 설정
 
