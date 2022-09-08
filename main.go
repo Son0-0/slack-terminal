@@ -9,7 +9,6 @@ import (
 	"github.com/Son0-0/slack-terminal/handlers"
 )
 
-var serverLogger *log.Logger
 
 func main() {
 	outLog, err := os.OpenFile("out.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
